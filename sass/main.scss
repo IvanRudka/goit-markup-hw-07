@@ -1,0 +1,23 @@
+@import "./utils/variables";
+@import "./utils/common";
+
+@import "./components/page-header";
+
+// Main page
+
+@import "./components/hero-section";
+@import "./utils/buttons";
+@import "./components/feature-section";
+@import "./components/avtivity-section";
+@import "./components/team-section";
+@import "./components/clients-section";
+@import "./components/modal-section";
+
+// Portfolio
+
+@import "./components/project-section";
+
+@import "./components/footer";
+
+
+

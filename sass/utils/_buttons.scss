@@ -1,0 +1,153 @@
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+
+    transition: background-color 250ms var(--transition-timing-function);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--active-btn);
+}
+
+.button-filter {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+    color: var(--title-text-color);
+    background-color: var(--secondary-bcg-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: color 250ms var(--transition-timing-function),
+        background-color 250ms var(--transition-timing-function),
+        box-shadow 250ms var(--transition-timing-function),
+        text-shadow 250ms var(--transition-timing-function);
+}
+
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-subscribe {
+    display: flex;
+    margin-left: auto;
+    max-height: 50px;
+    min-width: 200px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 28px;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    fill: var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+    transition: background-color 250ms var(--transition-timing-function);
+}
+
+.button-subscribe:hover,
+.button-subscribe:focus,
+.button-subscribe:active {
+    background-color: var(--active-btn);
+}
+
+.button-subscribe .item-icon {
+    margin-left: 10px;
+    height: 24px;
+    width: 24px;
+}
+.button-send {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-height: 50px;
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 10px 52px;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    align-items: center;
+    cursor: pointer;
+
+    transition: background-color 250ms var(--transition-timing-function);
+}
+
+.button-send:hover,
+.button-send:focus,
+.button-send:active {
+    background-color: var(--active-btn);
+}
+
+.button-close-modal {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    fill: #000000;
+    background-color: var(--primary-white-color);
+    align-items: center;
+    justify-content: center;
+
+    transform: translate(-10px, 10px);
+
+    cursor: pointer;
+
+    transition: fill 250ms var(--transition-timing-function);
+}
+
+.button-close-modal:hover,
+.button-close-modal:focus,
+.button-close-modal:active {
+    fill: var(--active-btn);
+}
