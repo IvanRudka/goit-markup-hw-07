@@ -1,33 +1,39 @@
 /* Чим ми займаємось */
 
-.section-tittle {
+.activity {
+  padding-top: 0;
+
+  &__tittle {
     margin: 0;
     margin-bottom: 50px;
-}
 
-.our-work {
-    padding-top: 0;
-}
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 
-.container .activity {
+    color: var(--title-text-color);
+  }
+
+  &__list {
     display: flex;
     gap: 30px;
-}
+  }
 
-.activity-item {
+  &__item {
     position: relative;
-}
+  }
 
-.activity-item .description {
+  &__caption {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 
     background-color: rgba(47, 48, 58, 0.8);
-}
+  }
 
-.activity-item .text-description {
+  &__description {
     margin: 0;
     padding: 27px 0;
     font-weight: 700;
@@ -36,8 +42,9 @@
     text-transform: uppercase;
 
     color: var(--primary-white-color);
+  }
 }
 
 img {
-    display: block;
+  display: block;
 }

@@ -1,24 +1,23 @@
 /* Секція про переваги компанії */
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-tittle {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .feature-list {
-    display: flex;
-    gap: 30px;
-}
+  display: flex;
+  gap: 30px;
 
-.feature-list .thumb {
+  &__thumb {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,23 +25,24 @@
     border-radius: 4px;
     background-color: var(--secondary-bcg-color);
     margin-bottom: 30px;
-}
+  }
 
-.thumb .icon {
+  &__icon {
     width: 70px;
     height: 70px;
-}
+  }
 
-.feature-list .tittle {
+  &__tittle {
     margin: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-}
+  }
 
-.feature-list .description {
+  &__description {
     margin-top: 0;
     margin-bottom: 0;
+  }
 }
