@@ -1,0 +1,154 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+
+  .contact-us {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .contact-us .item:nth-child(n + 2) {
+    margin-top: 0;
+  }
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+
+  .hero {
+      max-width: 1600px;
+      background-image: linear-gradient(to right,
+              rgba(47, 48, 58, 0.4),
+              rgba(47, 48, 58, 0.4)),
+          url("../images/hero-bg.jpg");
+
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero {
+          background-image: linear-gradient(to right,
+                  rgba(47, 48, 58, 0.4),
+                  rgba(47, 48, 58, 0.4)),
+              url("../images/hero-bg-2x.jpg");
+      }
+  }
+
+  .hero-tittle {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+
+  .feature-list .item {
+    width: calc((100% - 90px) / 4);
+  }
+
+  /* Чим ми займаємось */
+
+  .section-tittle {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .our-work {
+    display: block;
+    padding-top: 0;
+  }
+
+  .container .activity {
+    display: flex;
+    gap: 30px;
+  }
+
+  .activity-item {
+    position: relative;
+  }
+
+  .activity-item .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+
+  .activity-item .text-description {
+    margin: 0;
+    padding: 27px 0;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+  }
+
+  img {
+    display: block;
+  }
+
+  .teammate .item {
+    width: calc((100% - 90px) / 4);
+  }
+
+  .teammate .item img {
+      width: 270px;
+      height: 260px;
+  }
+
+  .clients-list .clients-item {
+    width: calc((100% - 150px) / 6);
+  }
+
+  .clients-list .link {
+    padding: 16px 32px;
+    
+  }
+
+  .footer .container {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+  }
+
+  .contact-footer {
+      align-items: baseline;
+  }
+  .address .list {
+      display: block;
+  }
+
+  .footer .thumb {
+    margin-left: 70px;
+  }
+
+  .footer .mailing {
+      margin-left: 95px;
+  }
+
+  .mailing-form {
+      flex-direction: row;
+      align-items: baseline;
+  }
+
+  .button-subscribe {
+
+      margin-left: auto;
+
+  }
+}
