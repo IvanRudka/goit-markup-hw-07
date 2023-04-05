@@ -38,83 +38,101 @@
             aria-expanded="false"
             aria-controls="mobile-menu"
           >
-            <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M8 14.667V12h24v2.667H8Zm0 6.666h24v-2.666H8v2.666ZM8 28h24v-2.667H8V28Z" fill="#000" />
+            <svg
+              width="40"
+              height="40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 14.667V12h24v2.667H8Zm0 6.666h24v-2.666H8v2.666ZM8 28h24v-2.667H8V28Z"
+                fill="#000"
+              />
             </svg>
           </button>
           <div class="burger-menu js-menu-container" id="mobile-menu">
-            <ul class="header-nav-wrap list">
-              <button class="header-btn-mobile-close menu-toggle js-close-menu">
-                <svg width="40" height="40" fill="currentColor"
-           xmlns="http://www.w3.org/2000/svg">
+            <div class="burger-menu-container">
+              <button
+                type="button"
+                class="header-btn-mobile-close menu-toggle js-close-menu"
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
                   <path
                     d="M29.667 12.88 27.787 11l-7.454 7.453L12.88 11 11 12.88l7.453 7.453L11 27.787l1.88 1.88 7.453-7.454 7.454 7.454 1.88-1.88-7.454-7.454 7.454-7.453Z"
                   />
                 </svg>
               </button>
-              <li class="item">
-                <a href="./index.html" class="link current">Студія</a>
-              </li>
-              <li class="item">
-                <a href="./portfolio.html" class="link">Портфоліо</a>
-              </li>
-              <li class="item"><a href="#" class="link">Контакти</a></li>
-            </ul>
-            <ul class="contact-us-mob list">
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="link mail"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="link tel"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            </ul>
-            <ul class="contact-us-mob-social list">
-              <li class="social-item">
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noreferrer noopener nofollow"
-                  aria-label="Instagram"
-                  class="link"
-                  >Instagram</a
-                >
-              </li>
-              <li class="social-item">
-                <a
-                  href="https://www.twitter.com/"
-                  target="_blank"
-                  rel="noreferrer noopener nofollow"
-                  aria-label="Instagram"
-                  class="link"
-                  >Twitter</a
-                >
-              </li>
-              <li class="social-item">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noreferrer noopener nofollow"
-                  aria-label="Instagram"
-                  class="link"
-                  >Facebook</a
-                >
-              </li>
-              <li class="social-item">
-                <a
-                  href="https://www.linkedin.com/"
-                  target="_blank"
-                  rel="noreferrer noopener nofollow"
-                  aria-label="Instagram"
-                  class="link"
-                  >LinkedIn</a
-                >
-              </li>
-            </ul>
+              <ul class="header-nav-wrap list">
+                <li class="item">
+                  <a href="./index.html" class="link current">Студія</a>
+                </li>
+                <li class="item">
+                  <a href="./portfolio.html" class="link">Портфоліо</a>
+                </li>
+                <li class="item"><a href="#" class="link">Контакти</a></li>
+              </ul>
+              <ul class="contact-us-mob list">
+                <li class="item">
+                  <a href="mailto:info@devstudio.com" class="link mail"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="item">
+                  <a href="tel:+380961111111" class="link tel"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+              <ul class="contact-us-mob-social list">
+                <li class="social-item">
+                  <a
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    aria-label="Instagram"
+                    class="link"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="https://www.twitter.com/"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    aria-label="Instagram"
+                    class="link"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    aria-label="Instagram"
+                    class="link"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    aria-label="Instagram"
+                    class="link"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
           <!-- Burger menu -->
           <ul class="site-nav list">
@@ -259,7 +277,33 @@
           <h2 class="section-tittle">Наша команда</h2>
           <ul class="teammate list">
             <li class="item">
-              <img src="./images/ihor-demiianenko.jpg" alt="Ігор Дем'яненко" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/ihor-demiianenko-mob-1x.jpg,
+                    ./images/ihor-demiianenko-mob-2x.jpg
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/ihor-demiianenko-tab-1x.jpg,
+                    ./images/ihor-demiianenko-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/ihor-demiianenko.jpg,
+                    ./images/ihor-demiianenko-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/ihor-demiianenko.jpg"
+                  alt="Iгор Дем'яненко"
+                />
+              </picture>
               <div class="description">
                 <h3 class="tittle">Ігор Дем'яненко</h3>
                 <p class="profession">Product Designer</p>
@@ -314,7 +358,30 @@
               </div>
             </li>
             <li class="item">
-              <img src="./images/olha-riepina.jpg" alt="Ольга Рєпіна" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/olha-riepina-mob-1x.jpg,
+                    ./images/olha-riepina-mob-2x.jpg
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/olha-riepina-tab-1x.jpg,
+                    ./images/olha-riepina-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/olha-riepina.jpg,
+                    ./images/olha-riepina-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/olha-riepina.jpg" alt="Ольга Рєпіна" />
+              </picture>
               <div class="description">
                 <h3 class="tittle">Ольга Рєпіна</h3>
                 <p class="profession">Frontend Developer</p>
@@ -369,7 +436,30 @@
               </div>
             </li>
             <li class="item">
-              <img src="./images/mykola-tarasov.jpg" alt="Микола Тарасов" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykola-tarasov-mob-1x.jpg,
+                    ./images/mykola-tarasov-mob-2x.jpg
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykola-tarasov-tab-1x.jpg,
+                    ./images/mykola-tarasov-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykola-tarasov.jpg,
+                    ./images/mykola-tarasov-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/mykola-tarasov.jpg" alt="Микола Тарасов" />
+              </picture>
               <div class="description">
                 <h3 class="tittle">Микола Тарасов</h3>
                 <p class="profession">Marketing</p>
@@ -424,7 +514,30 @@
               </div>
             </li>
             <li class="item">
-              <img src="./images/mykhailo-iermakov.jpg" alt="Михайло Єрмаков" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/mykhailo-iermakov-mob-1x.jpg,
+                    ./images/mykhailo-iermakov-mob-2x.jpg
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailo-iermakov-tab-1x.jpg,
+                    ./images/mykhailo-iermakov-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/mykhailo-iermakov.jpg,
+                    ./images/mykhailo-iermakov-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img src="./images/mykhailo-iermakov.jpg" alt="Михайло Єрмаков" />
+              </picture>
               <div class="description">
                 <h3 class="tittle">Михайло Єрмаков</h3>
                 <p class="profession">UI Designer</p>

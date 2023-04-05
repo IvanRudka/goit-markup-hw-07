@@ -1,10 +1,33 @@
 @media screen and (min-width: 480px) {
-    .container {
-        max-width: 480px;
-    }
+  .container {
+    max-width: 480px;
+  }
 
-    .feature-list .item:nth-child(n+2) {
-        margin-top: 30px;
-    }
+  .contact-us-mob .mail {
+    font-size: 34px;
+  }
+
+  .contact-us-mob-social {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 65px;
+  }
+
+  .contact-us-mob-social .social-item:not(:first-child) {
+      margin-left: 20px;
+  }
+
+  .feature-list .item:nth-child(n + 2) {
+    margin-top: 30px;
+  }
+
+  .clients-list .clients-item {
+      width: calc((100% - 30px) / 2);
+  }
+
+  .modal {
+      min-height: 609px;
+      min-width: 450px;
+  }
 
 }

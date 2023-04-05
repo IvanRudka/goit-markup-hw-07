@@ -24,25 +24,29 @@
     padding-bottom: 94px;
   }
 
-
   .hero {
-      max-width: 1600px;
-      background-image: linear-gradient(to right,
-              rgba(47, 48, 58, 0.4),
-              rgba(47, 48, 58, 0.4)),
-          url("../images/hero-bg.jpg");
-
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero-bg.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-      .hero {
-          background-image: linear-gradient(to right,
-                  rgba(47, 48, 58, 0.4),
-                  rgba(47, 48, 58, 0.4)),
-              url("../images/hero-bg-2x.jpg");
-      }
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/hero-bg-2x.jpg");
+    }
   }
 
   .hero-tittle {
@@ -107,8 +111,8 @@
   }
 
   .teammate .item img {
-      width: 270px;
-      height: 260px;
+    /* width: 270px;
+      height: 260px; */
   }
 
   .clients-list .clients-item {
@@ -117,20 +121,19 @@
 
   .clients-list .link {
     padding: 16px 32px;
-    
   }
 
   .footer .container {
-      display: flex;
-      flex-direction: row;
-      align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
 
   .contact-footer {
-      align-items: baseline;
+    align-items: baseline;
   }
   .address .list {
-      display: block;
+    display: block;
   }
 
   .footer .thumb {
@@ -138,17 +141,22 @@
   }
 
   .footer .mailing {
-      margin-left: 95px;
+    margin-left: 95px;
+
+    width: 570px;
   }
 
   .mailing-form {
-      flex-direction: row;
-      align-items: baseline;
+    flex-direction: row;
+    align-items: baseline;
   }
 
   .button-subscribe {
-
-      margin-left: auto;
-
+    margin-left: 12px;
   }
+
+   .modal {
+       min-height: 581px;
+       min-width: 528px;
+   }
 }

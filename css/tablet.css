@@ -151,9 +151,13 @@
     flex-wrap: wrap;
   }
 
+  .teammate .item:not(:first-child) {
+      margin-top: 0;
+  }
+
   .teammate .item img {
-      width: 354px;
-      height: 374px;
+      /* width: 354px;
+      height: 374px; */
   }
 
   .teammate .item {
@@ -181,6 +185,12 @@
 
   .footer .thumb {
       margin-left: 165px;
+    margin-top: 0;
+  }
+
+  .footer .mailing {
+margin-top: 60px;
+      width: 450px;
   }
 
 }
